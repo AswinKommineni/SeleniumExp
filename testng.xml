@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loans">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Loan.NewCarLoan.NewCarRegistartion"/>
+      <class name="Loan.OldHoseLoan.OldHouseRegistration"/>
+		
+      <class name="Loan.Carloan.Logout"/>
+      <class name="Loan.NewHouseLoan.NewHouseRegistartion"/>
+      <class name="Loan.Carloan.Login"/>
+      <class name="Loan.HouseLoan.Login"/>
+      <class name="Loan.OldCarLoan.OldCarRegistration"/>
+      <class name="Loan.HouseLoan.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Loans -->
